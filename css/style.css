@@ -24,31 +24,28 @@ color: #212121;
 .accent{
     color: #000000;
 }
+body {
 
+}
 .slogan {
      background-color: #2F303A;   
      color: #757575;
  }
- .slogan .text {
+ .slogan-text {
     color: #FFFFFF;
  }
  .slogan .button {
     background-color: #2196F3;
     color: #FFFFFF;
+    cursor: pointer;
  }
  .central-block {
     background-color: #F5F5F5;
  }
- .advantages .text{
+ .section-text{
     color: #757575;
  }
- .team {
-    background: #F5F4FA;
- }
- .team .text {
-    color:#757575;
- }
-.cellar {
+ .cellar {
     background-color: #2F303A;
     color: #FFFFFF;
 }
