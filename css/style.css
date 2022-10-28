@@ -1,0 +1,60 @@
+header{
+    background-color: #FFFFFF;
+    color: #212121;
+}
+ul {
+    list-style: none;
+}
+.list .link{
+    color: #212121;
+}
+.list .link:hover,
+.list .link:focus {
+    color: #2196F3;
+}
+.list-сontact .link{
+color: #212121;
+}
+.list-сontact .link:hover,
+.list-сontact .link:focus{ 
+    color: #2196F3;}
+    .logo{
+        color: #2196F3;
+    }
+.accent{
+    color: #000000;
+}
+
+.slogan {
+     background-color: #2F303A;   
+     color: #757575;
+ }
+ .slogan .text {
+    color: #FFFFFF;
+ }
+ .slogan .button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+ }
+ .central-block {
+    background-color: #F5F5F5;
+ }
+ .advantages .text{
+    color: #757575;
+ }
+ .team {
+    background: #F5F4FA;
+ }
+ .team .text {
+    color:#757575;
+ }
+.cellar {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+.cellar .link {
+    color: rgba(255, 255, 255, 60%)
+}
+.cellar .accent{
+    color: #FFFFFF;
+}
