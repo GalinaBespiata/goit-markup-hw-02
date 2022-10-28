@@ -1,24 +1,30 @@
+:root {
+    --primary-text-color: #212121;
+    --light-bacground-color: #F5F5F5;
+    --dark-bacground-color: #2F303A;
+    --minor-text-color: #757575;
+}
 header{
     background-color: #FFFFFF;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 ul {
     list-style: none;
 }
 .list .link{
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .list .link:hover,
 .list .link:focus {
     color: #2196F3;
 }
 .list-сontact .link{
-color: #212121;
+color: var(--primary-text-color);
 }
 .list-сontact .link:hover,
 .list-сontact .link:focus{ 
     color: #2196F3;}
-    .logo{
+.logo{
         color: #2196F3;
     }
 .accent{
@@ -28,8 +34,8 @@ body {
 
 }
 .slogan {
-     background-color: #2F303A;   
-     color: #757575;
+     background-color: var(--dark-bacground-color);   
+     color: var(--minor-text-color);
  }
  .slogan-text {
     color: #FFFFFF;
@@ -40,13 +46,13 @@ body {
     cursor: pointer;
  }
  .central-block {
-    background-color: #F5F5F5;
+    background-color: var(--light-bacground-color);
  }
  .section-text{
-    color: #757575;
+    color: var(--minor-text-color);
  }
  .cellar {
-    background-color: #2F303A;
+    background-color: var(--dark-bacground-color);
     color: #FFFFFF;
 }
 .cellar .link {
