@@ -2,9 +2,11 @@
     --primary-text-color: #212121;
     --light-bacground-color: #F5F5F5;
     --dark-bacground-color: #2F303A;
+    --secondary-text-color: #FFFFFF;
     --minor-text-color: #757575;
+    --primary-button-color: #F5F4FA;
 }
-header{
+body{
     background-color: #FFFFFF;
     color: var(--primary-text-color);
 }
@@ -30,20 +32,23 @@ color: var(--primary-text-color);
 .accent{
     color: #000000;
 }
-body {
-
-}
 .slogan {
      background-color: var(--dark-bacground-color);   
      color: var(--minor-text-color);
  }
  .slogan-text {
-    color: #FFFFFF;
+    color: var(--secondary-text-color);
  }
- .slogan .button {
+ .button.secondary{
     background-color: #2196F3;
-    color: #FFFFFF;
+    color: var(--secondary-text-color);
     cursor: pointer;
+ }
+ .button.primary {
+background-color: var(--primary-button-color);
+color: var(--primary-text-color);
+cursor: pointer;
+border: none;
  }
  .central-block {
     background-color: var(--light-bacground-color);
@@ -53,7 +58,7 @@ body {
  }
  .cellar {
     background-color: var(--dark-bacground-color);
-    color: #FFFFFF;
+    color: var(--secondary-text-color);
 }
 .cellar .link {
     color: rgba(255, 255, 255, 60%)
