@@ -50,10 +50,16 @@ color: var(--primary-text-color);
 cursor: pointer;
 border: none;
  }
+ .button.primary:hover,
+ .button.primary:focus {
+    background-color: #2196F3;
+    color:var(--secondary-text-color);
+ }
  .central-block {
     background-color: var(--light-bacground-color);
  }
- .section-text{
+ .section-text,
+ .gallery-text {
     color: var(--minor-text-color);
  }
  .cellar {
