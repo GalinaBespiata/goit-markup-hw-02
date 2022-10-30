@@ -5,6 +5,7 @@
     --secondary-text-color: #FFFFFF;
     --minor-text-color: #757575;
     --primary-button-color: #F5F4FA;
+    --color-accent:#2196F3;
 }
 body{
     background-color: #FFFFFF;
@@ -13,23 +14,27 @@ body{
 ul {
     list-style: none;
 }
+.list .link.current {
+    color: var(--color-accent);
+}
 .list .link{
     color: var(--primary-text-color);
 }
 .list .link:hover,
 .list .link:focus {
-    color: #2196F3;
+    color: var(--color-accent);
 }
 .list-сontact .link{
 color: var(--primary-text-color);
 }
 .list-сontact .link:hover,
 .list-сontact .link:focus{ 
-    color: #2196F3;}
+    color: var(--color-accent);
+}
 .logo{
-        color: #2196F3;
+        color: var(--color-accent);
     }
-.accent{
+.logo-accent{
     color: #000000;
 }
 .slogan {
@@ -39,20 +44,20 @@ color: var(--primary-text-color);
  .slogan-text {
     color: var(--secondary-text-color);
  }
- .button.secondary{
-    background-color: #2196F3;
-    color: var(--secondary-text-color);
-    cursor: pointer;
- }
- .button.primary {
+ .button.secondary {
 background-color: var(--primary-button-color);
 color: var(--primary-text-color);
 cursor: pointer;
 border: none;
  }
- .button.primary:hover,
- .button.primary:focus {
-    background-color: #2196F3;
+ .button.primary {
+background-color: var(--color-accent);
+    color: var(--secondary-text-color);
+    cursor: pointer;
+ }
+  .button.secondary:hover,
+ .button.secondary:focus {
+    background-color: var(--color-accent);
     color:var(--secondary-text-color);
  }
  .central-block {
