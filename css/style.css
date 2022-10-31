@@ -10,6 +10,10 @@
 body{
     background-color: #FFFFFF;
     color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+}
+h2 {
+    font-weight: 700;
 }
 ul {
     list-style: none;
@@ -17,8 +21,12 @@ ul {
 .list .link.current {
     color: var(--color-accent);
 }
-.list .link{
+.list .link {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
 }
 .list .link:hover,
 .list .link:focus {
@@ -26,16 +34,31 @@ ul {
 }
 .list-сontact .link{
 color: var(--primary-text-color);
+font-style: normal;
+font-size: 14px;
+ line-height: 1.17;
+letter-spacing: 0.02em;
+font-weight: 500;
 }
 .list-сontact .link:hover,
-.list-сontact .link:focus{ 
+.list-сontact .link:focus { 
     color: var(--color-accent);
 }
-.logo{
+/* logo*/
+.logo,
+.logo-accent {
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+.logo {
         color: var(--color-accent);
+        font-weight: 700;
     }
 .logo-accent{
     color: #000000;
+    font-weight: 700;
 }
 .slogan {
      background-color: var(--dark-bacground-color);   
@@ -43,17 +66,33 @@ color: var(--primary-text-color);
  }
  .slogan-text {
     color: var(--secondary-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height:1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
  }
+ .button.primary {
+    background-color: var(--color-accent);
+        color: var(--secondary-text-color);
+        cursor: pointer;
+        font-family: inherit;
+        font-size: 16px;
+        line-height:1.87;
+        letter-spacing: 0.06em;
+        text-align: center;
+     }
  .button.secondary {
 background-color: var(--primary-button-color);
 color: var(--primary-text-color);
 cursor: pointer;
 border: none;
- }
- .button.primary {
-background-color: var(--color-accent);
-    color: var(--secondary-text-color);
-    cursor: pointer;
+font-family: inherit;
+font-size: 16;
+font-weight: 500;
+letter-spacing: 0.03em;
+line-height: 1.62;
+text-align: center;
  }
   .button.secondary:hover,
  .button.secondary:focus {
@@ -63,17 +102,63 @@ background-color: var(--color-accent);
  .central-block {
     background-color: var(--light-bacground-color);
  }
+ .section .title {
+    font-size: 36px;
+    line-height:1.17;
+     letter-spacing: 0.03em;
+    text-align: center;
+ }
  .section-text,
  .gallery-text {
     color: var(--minor-text-color);
  }
- .cellar {
+ .gallery-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height:2.0;
+     letter-spacing: 0.06em;
+ }
+ .gallery-text {
+    font-size: 18px;
+    font-weight: 700;
+    line-height:1.87;
+     letter-spacing: 0.03em;
+ }
+ .section .heading {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+     letter-spacing: 0.03em;
+ }
+ .heading.team {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.17;
+     letter-spacing: 0.03em;
+ }
+ .section-text {
+    font-size: 14px;
+    line-height: 1.71;
+     letter-spacing: 0.03em;
+ }
+ .section-text.team {
+    font-size: 16px;
+    line-height: 1.17;
+ }
+  .cellar {
     background-color: var(--dark-bacground-color);
     color: var(--secondary-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+     letter-spacing: 0.03em;
 }
 .cellar .link {
-    color: rgba(255, 255, 255, 60%)
+    color: rgba(255, 255, 255, 60%);
+    text-align: left;
 }
 .cellar .accent{
     color: #FFFFFF;
+}
+address {
+    font-style: normal;
 }
