@@ -27,6 +27,7 @@ ul {
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .list .link:hover,
 .list .link:focus {
@@ -39,6 +40,7 @@ font-size: 14px;
  line-height: 1.17;
 letter-spacing: 0.02em;
 font-weight: 500;
+text-decoration: none;
 }
 .list-сontact .link:hover,
 .list-сontact .link:focus { 
